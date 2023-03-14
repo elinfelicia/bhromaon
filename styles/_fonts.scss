@@ -2,6 +2,14 @@
 font-family: 'Aleo', serif;
 font-family: 'Josefin Sans', sans-serif;
 */
+/*
+Blue: #5474FD;
+Blue like: #00A2FF;
+Grey text: #999999;
+Grey bg: #333333;
+Red check: #FF6363;
+
+*/
 $main-txt-color: white;
 $main-font: 'Josefin Sans', sans-serif;
 $sub-font: 'Aleo', serif;
@@ -9,11 +17,39 @@ $main-font-size: 16px;
 $header-font-size: 48px;
 $title-font-size: 36px;
 $sub-title-font-size: 20px;
+$ph-txt-color: #999999;
 
-.header__title {
-    font-family: $main-font;
+body {
     color: $main-txt-color;
-    font-size: $header-font-size;
-    font-weight: 700;
-    text-align: center;
+}
+.btn {
+    font-family: $sub-font;
+    color: $main-txt-color;
+    &--search {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    }
+    &--book, &--explore {
+        font-size: $main-font-size;
+        letter-spacing: 1.2px;
+    }
+}
+
+.header{
+    &__title {
+        font-family: $main-font;
+        font-size: $header-font-size;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__slogan {
+        font-family: $main-font;
+        font-size: 22px;
+        text-align: center;
+    }
+    &__searchbar::placeholder {
+        font-family: $main-font;
+        font-size: 14px;
+        color: $ph-txt-color;
+    }
 }

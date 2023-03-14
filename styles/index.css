@@ -1,1 +1,173 @@
-/*# sourceMappingURL=index.css.map */
+/*
+font-family: 'Aleo', serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+/*
+Blue: #5474FD;
+Blue like: #00A2FF;
+Grey text: #999999;
+Grey bg: #333333;
+Red check: #FF6363;
+
+*/
+body {
+  color: white;
+}
+
+.btn {
+  font-family: "Aleo", serif;
+  color: white;
+}
+.btn--search {
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+.btn--book, .btn--explore {
+  font-size: 16px;
+  letter-spacing: 1.2px;
+}
+
+.header__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.header__slogan {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.header__searchbar::-webkit-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.header__searchbar::-moz-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.header__searchbar:-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.header__searchbar::-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+.header__searchbar::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: #999999;
+}
+
+/*
+Blue: #5474FD;
+Blue like: #00A2FF;
+Grey text: #999999;
+Grey bg: #333333;
+Red check: #FF6363;
+*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333333;
+}
+
+.header {
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 75vh;
+}
+.header__search {
+  max-width: 653px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__searchbar {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  width: 100%;
+  border: none;
+}
+
+.why-us {
+  background-image: url(../images/city.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 75vh;
+}
+
+.spain-1 {
+  background-image: url(../images/villa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 75vh;
+}
+
+.spain-2 {
+  background-image: url(../images/ocean.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 75vh;
+}
+
+.review {
+  background-image: url(../images/sam-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 75vh;
+}
+
+.btn {
+  background-color: #5474FD;
+}
+.btn--search {
+  width: 150px;
+  height: 60px;
+  left: 502px;
+  border: 2px solid white;
+  top: 2px;
+}
+.btn--explore {
+  width: 228px;
+  height: 63px;
+  left: 0px;
+  top: 0px;
+  border: none;
+  opacity: 80%;
+}
+.btn--book {
+  width: 228px;
+  height: 63px;
+  left: 358px;
+  top: 488px;
+  border: none;
+  opacity: 80%;
+}

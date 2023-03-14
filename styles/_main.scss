@@ -1,0 +1,69 @@
+/*
+Blue: #5474FD;
+Blue like: #00A2FF;
+Grey text: #999999;
+Grey bg: #333333;
+Red check: #FF6363;
+*/
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+}
+.header {
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+    &__search {
+        max-width: 653px;
+        display: flex;
+    }
+    &__searchbar {
+        padding-top: 19px;
+        padding-bottom: 19px;
+        width: 100%;
+        border: none;
+}
+}
+
+.why-us {
+    background-image: url(../images/city.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.spain-1 {
+    background-image: url(../images/villa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.spain-2 {
+    background-image: url(../images/ocean.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.review {
+    background-image: url(../images/sam-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 75vh;
+}
