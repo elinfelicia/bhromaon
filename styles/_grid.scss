@@ -1,0 +1,19 @@
+
+/*.why-us__grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.why-us__main {
+    grid-area: 3/1/6/7;
+}
+.img--cottage {
+    max-width: 350px;
+    grid-area: 2/8/4/12;
+    margin: 5px;
+}
+.img--mountain {
+    max-width: 350px;
+    grid-area: 4/9/6/13;
+    margin: 5px;
+}

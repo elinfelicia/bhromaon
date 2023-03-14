@@ -28,6 +28,12 @@ body {
   letter-spacing: 1.2px;
 }
 
+.main__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+
 .header__title {
   font-family: "Josefin Sans", sans-serif;
   font-size: 48px;
@@ -100,6 +106,11 @@ body {
   color: white;
 }
 
+.why-us__title {
+  font-family: "Aleo", serif;
+  font-size: 26px;
+}
+
 /*
 Blue: #5474FD;
 Blue like: #00A2FF;
@@ -122,6 +133,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #333333;
+}
+
+.container {
+  max-width: 1770px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -178,8 +195,53 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   min-height: 75vh;
+}
+.why-us__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.why-us__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  max-width: 560px;
+}
+.why-us__title {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.why-us__info {
+  padding: 10px;
+  margin-top: 15px;
+}
+.why-us__img {
+  display: inline-block;
+}
+.why-us__imgimg--cottage, .why-us__imgimg--mountain {
+  max-width: 350px;
+  margin: 5px;
 }
 
 .spain-1 {
@@ -259,6 +321,7 @@ body {
   height: 63px;
   border: none;
   opacity: 80%;
+  margin-top: 35px;
 }
 .btn--book {
   width: 228px;

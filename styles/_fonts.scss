@@ -38,6 +38,11 @@ body {
         letter-spacing: 1.2px;
     }
 }
+.main__text {
+    font-family: $main-font;
+    font-size: $main-font-size;
+    letter-spacing: 1.6px;
+}
 
 .header{
     &__title {
@@ -85,4 +90,11 @@ body {
         color: $main-txt-color;
 
     }
+}
+.why-us {
+    &__title {
+        font-family: $sub-font;
+        font-size: 26px;
+    }
+    
 }
