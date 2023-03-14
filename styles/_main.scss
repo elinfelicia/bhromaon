@@ -14,6 +14,7 @@ body {
     background-color: #333333;
 }
 .container {
+    width: 100%;
     max-width: 1770px;
     margin-left: auto;
     margin-right: auto;
@@ -91,6 +92,18 @@ body {
             max-width: 350px;
             margin: 5px;
         }
+    }
+}
+
+.mid {
+    width: 100%;
+    max-width: 1770px;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    &__item {
+        display: block;
+        text-align: center;
     }
 }
 

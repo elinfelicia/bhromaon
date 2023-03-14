@@ -96,5 +96,19 @@ body {
         font-family: $sub-font;
         font-size: 26px;
     }
-    
+}
+
+.mid {
+    &__icon--search {
+        font-size: 60px;
+        color: #5474FD;
+    }
+    &__icon--select {
+        font-size: 60px;
+        color: #FF6363;
+    }
+    &__icon--book {
+        font-size: 60px;
+        color: #00A2FF;
+    }
 }
