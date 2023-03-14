@@ -1,0 +1,19 @@
+/*
+font-family: 'Aleo', serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+$main-txt-color: white;
+$main-font: 'Josefin Sans', sans-serif;
+$sub-font: 'Aleo', serif;
+$main-font-size: 16px;
+$header-font-size: 48px;
+$title-font-size: 36px;
+$sub-title-font-size: 20px;
+
+.header__title {
+    font-family: $main-font;
+    color: $main-txt-color;
+    font-size: $header-font-size;
+    font-weight: 700;
+    text-align: center;
+}
