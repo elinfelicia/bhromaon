@@ -13,6 +13,9 @@ body {
     align-items: center;
     background-color: #333333;
 }
+a:hover {
+    font-weight: 700;
+}
 .container {
     width: 100%;
     max-width: 1770px;
@@ -95,18 +98,6 @@ body {
     }
 }
 
-.mid {
-    width: 100%;
-    max-width: 1770px;
-    min-height: 20vh;
-    display: flex;
-    justify-content: space-evenly;
-    &__item {
-        display: block;
-        text-align: center;
-    }
-}
-
 .spain-1 {
     background-image: url(../images/villa.png);
     background-repeat: no-repeat;
@@ -132,4 +123,15 @@ body {
     background-size: cover;
     width: 100%;
     min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        margin-bottom: 45px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 46px;
+    }
 }

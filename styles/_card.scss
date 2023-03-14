@@ -5,5 +5,31 @@
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding: 40px 20px;
+    padding: 40px 10px 40px 20px;
+    &--title {
+        margin: 10px 0 13px 10px;
+    }
+    &--info {
+        margin-left: 10px;
+        margin-bottom: 36px;
+        letter-spacing: normal;
+        line-height: 26px;
+    }
 }
+.review__img {
+    max-width: 445px;
+}
+.review__card {
+    background-color: #333333;
+    max-width: 668px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .review__text {
+        padding: 20px;
+        margin: 30px 5px 20px 30px;
+    }
+}
+
+
