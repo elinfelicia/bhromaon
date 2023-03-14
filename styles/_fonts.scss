@@ -102,6 +102,11 @@ body {
         font-size: 60px;
         color: #00A2FF;
     }
+    &__text {
+        font-family: $sub-font;
+        font-size: 36px;
+        color: #E8E8E8;
+    }
 }
 
 .card__title {

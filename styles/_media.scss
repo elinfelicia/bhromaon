@@ -2,9 +2,15 @@
     .review__wrapper {
         display: block;
     }
+    .header__searchbar::placeholder {
+        letter-spacing: normal;
+    }
 }
 @media only screen and (max-width: 600px) {
     .nav__navbar {
         display: block;
+    }
+    .header__searchbar::placeholder {
+        font-size: 12px;
     }
 }
