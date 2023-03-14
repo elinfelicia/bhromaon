@@ -6,11 +6,41 @@
         letter-spacing: normal;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .nav__navbar {
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header__search {
         display: block;
     }
     .header__searchbar::placeholder {
         font-size: 12px;
     }
+    .review__wrapper {
+        overflow: hidden;
+        max-width: 90vw;
+    }
 }
+@media screen and (max-width: 600px) {
+    .nav__list {display: none;}
+    .nav__navbar a.nav__icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav__list.responsive {position: relative;}
+    .nav__list.responsive .nav__icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav__list.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }

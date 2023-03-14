@@ -1,6 +1,7 @@
 $nav-bg-color: #5474FD; 
 
 .nav {
+    overflow: hidden;
     background-color: $nav-bg-color;
     width: 100%;
     position: sticky;
@@ -23,4 +24,17 @@ $nav-bg-color: #5474FD;
         margin-right: 12px;
         padding-right: 30px;
     }
+    &__link {
+        &__item {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+        }
+    }
 }
+.nav .nav__icon {
+    display: none;
+  }
+
