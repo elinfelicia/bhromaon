@@ -1,0 +1,25 @@
+/*
+Blue: #5474FD;
+Blue like: #00A2FF;
+Grey text: #999999;
+Grey bg: #333333;
+Red check: #FF6363;
+*/
+
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #232323;
+    min-height: 269px;
+    width: 100%;
+    &__logo, &__slogan {
+        padding: 4px;
+    }
+    &__socials {
+        display: flex;
+        margin-bottom: 48px;
+        margin-top: 25px;
+    }
+}
