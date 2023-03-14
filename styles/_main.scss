@@ -20,16 +20,36 @@ body {
     background-size: cover;
     width: 100%;
     min-height: 75vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        padding: 6px;
+    }
+    &__slogan {
+        padding: 5px;
+        margin-bottom: 23px;
+    }
     &__search {
+        width: 58%;
         max-width: 653px;
         display: flex;
+        margin-top: 20px;
+        margin-bottom: 54px;
     }
     &__searchbar {
         padding-top: 19px;
         padding-bottom: 19px;
         width: 100%;
         border: none;
-}
+        display: block;
+    }
+    &__scroll {
+        margin-top: 54px;
+        padding: 5px;
+    }
+   
 }
 
 .why-us {

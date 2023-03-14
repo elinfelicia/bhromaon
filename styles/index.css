@@ -10,6 +10,7 @@ Grey bg: #333333;
 Red check: #FF6363;
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap");
 body {
   color: white;
 }
@@ -32,36 +33,71 @@ body {
   font-size: 48px;
   font-weight: 700;
   text-align: center;
+  letter-spacing: 4.8px;
+  font-stretch: expanded;
 }
 .header__slogan {
   font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
+  letter-spacing: 6.82px;
   text-align: center;
 }
 .header__searchbar::-webkit-input-placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   color: #999999;
+  letter-spacing: 2.8px;
+  text-align: center;
 }
 .header__searchbar::-moz-placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   color: #999999;
+  letter-spacing: 2.8px;
+  text-align: center;
 }
 .header__searchbar:-ms-input-placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   color: #999999;
+  letter-spacing: 2.8px;
+  text-align: center;
 }
 .header__searchbar::-ms-input-placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   color: #999999;
+  letter-spacing: 2.8px;
+  text-align: center;
 }
 .header__searchbar::placeholder {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   color: #999999;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+.header__scroll {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  line-height: 26px;
+}
+
+.nav__logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2.4px;
+}
+.nav__link {
+  text-decoration: none;
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  color: white;
 }
 
 /*
@@ -95,18 +131,46 @@ body {
   background-size: cover;
   width: 100%;
   min-height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__title {
+  padding: 6px;
+}
+.header__slogan {
+  padding: 5px;
+  margin-bottom: 23px;
 }
 .header__search {
+  width: 58%;
   max-width: 653px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 54px;
 }
 .header__searchbar {
   padding-top: 19px;
   padding-bottom: 19px;
   width: 100%;
   border: none;
+  display: block;
+}
+.header__scroll {
+  margin-top: 54px;
+  padding: 5px;
 }
 
 .why-us {
@@ -145,29 +209,60 @@ body {
   min-height: 75vh;
 }
 
+.nav {
+  background-color: #5474FD;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.nav__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 1773px;
+  padding: 30px;
+}
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__item {
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-right: 30px;
+}
+
 .btn {
   background-color: #5474FD;
 }
 .btn--search {
-  width: 150px;
+  width: 153px;
   height: 60px;
   left: 502px;
   border: 2px solid white;
-  top: 2px;
+  padding-left: 23px;
+  padding-right: 18px;
 }
 .btn--explore {
   width: 228px;
   height: 63px;
-  left: 0px;
-  top: 0px;
   border: none;
   opacity: 80%;
 }
 .btn--book {
   width: 228px;
   height: 63px;
-  left: 358px;
-  top: 488px;
   border: none;
   opacity: 80%;
 }

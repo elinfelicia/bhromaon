@@ -3,25 +3,22 @@ $btn-color: #5474FD;
 .btn {
     background-color: $btn-color;
     &--search {
-        width: 150px;
+        width: 153px;
         height: 60px;
         left: 502px;
         border: 2px solid white;
-        top: 2px;
+        padding-left: 23px;
+        padding-right: 18px;
     }
     &--explore {
         width: 228px;
         height: 63px;
-        left: 0px;
-        top: 0px;
         border: none;
         opacity: 80%;
     }
     &--book {
         width: 228px;
         height: 63px;
-        left: 358px;
-        top: 488px;
         border: none;
         opacity: 80%;
     }

@@ -1,0 +1,25 @@
+$nav-bg-color: #5474FD; 
+
+.nav {
+    background-color: $nav-bg-color;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1773px;
+        padding: 30px;
+    }
+    &__list {
+        display: flex;
+    }
+    &__item {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-right: 30px;
+    }
+}

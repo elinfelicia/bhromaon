@@ -10,10 +10,14 @@ Grey bg: #333333;
 Red check: #FF6363;
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap');
+
 $main-txt-color: white;
 $main-font: 'Josefin Sans', sans-serif;
 $sub-font: 'Aleo', serif;
 $main-font-size: 16px;
+$s-font-size: 14px;
 $header-font-size: 48px;
 $title-font-size: 36px;
 $sub-title-font-size: 20px;
@@ -26,7 +30,7 @@ body {
     font-family: $sub-font;
     color: $main-txt-color;
     &--search {
-    font-size: 14px;
+    font-size: $s-font-size;
     letter-spacing: 1.4px;
     }
     &--book, &--explore {
@@ -41,15 +45,44 @@ body {
         font-size: $header-font-size;
         font-weight: 700;
         text-align: center;
+        letter-spacing: 4.8px;
+        font-stretch: expanded;
     }
     &__slogan {
         font-family: $main-font;
         font-size: 22px;
+        letter-spacing: 6.82px;
         text-align: center;
     }
     &__searchbar::placeholder {
         font-family: $main-font;
-        font-size: 14px;
+        font-size: $s-font-size;
         color: $ph-txt-color;
+        letter-spacing: 2.8px;
+        text-align: center;
+    }
+    &__scroll {
+        text-decoration: none;
+        color: $main-txt-color;
+        font-family: $main-font;
+        font-size: $s-font-size;
+        text-align: center;
+        letter-spacing: 2.8px;
+        line-height: 26px;
+    }
+}
+.nav {
+    &__logo {
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 2.4px;
+    }
+    &__link {
+        text-decoration: none;
+        font-family: $sub-font;
+        font-size: $s-font-size;
+        color: $main-txt-color;
+
     }
 }
